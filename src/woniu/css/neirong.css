@@ -1,0 +1,206 @@
+/*#neirong_content{width: 1200px;margin: 0 auto}*/
+
+/* 新闻中心 */
+#position{background: #f3f3f3;height: 60px;line-height: 60px;color: #666;width: 1200px;margin: 0 auto;}
+#position a{color: #666;}
+#position a:hover{color:#0069b7; }
+
+
+#cern{background: #f3f3f3;padding-top: 40px;width: 1200px;margin: 0 auto}
+#cern ul.title{margin: 30px auto 50px auto;}
+#cern ul.title li{display: inline-block;float: left; width: 260px;height: 150px;line-height: 150px;
+    background: #69b5e5;border-radius: 10px;margin-left: 53px;font-size: 30px;font-weight: 700;color: #fff;}
+#cern ul.title li:first-child{margin-left: 0;}
+#cern .centent{height: 820px;overflow: hidden;margin: 30px auto;}
+#cern .cern_l{height: 820px;width: 280px;overflow: hidden;position: relative;}
+#cern .cern_r{width: 890px;overflow: hidden;}
+#cern .cern_lt,#cern .cern_lb{width: 280px;height: 400px;background: #fff;overflow: hidden;}
+#cern .cern_lt{position: absolute;top:0;}
+#cern .cern_lb{position: absolute;bottom: 0; }
+#cern .cern_lt_title,#cern .cern_lb_title{width: 100%;height: 46px;line-height: 46px;
+    background: #ff3539;color: #fff;font-size: 18px;}
+#cern .cern_lt_centent,#cern .cern_lb_centent{width: 95%;margin: 1px auto;height: 360px;overflow: hidden;}
+#cern .cern_lt_centent dl{border-bottom: 1px dashed red;width: 100%; margin: 0 auto 10px auto;}
+#cern .cern_lt_centent dt a{color: #333;font-size: 16px;line-height: 30px;}
+#cern .cern_lt_centent dd{color: #666;margin-bottom: 10px;}
+#cern .cern_lt_centent dl:hover a{color: #0069b7;}
+#cern .cern_lb_centent{margin-top: 16px;}
+#cern .cern_lb_centent a{color: #666;font-size: 15px;}
+#cern .cern_lb_centent li{line-height: 32px;font-size: 16px;}
+#cern .cern_lb_centent li a:hover{color: red;}
+#cern .cern_r li{border-bottom: 0px dashed #aaa;overflow: hidden;}
+#cern .cern_r li:first-child{margin-top: 0;}
+#cern .cern_r dl{width: 730px;}
+#cern .cern_r a.on{width: 110px;height: 120px;background: #ff3539;line-height: 120px;
+    font-size: 18px;color: #fff;}
+#cern .cern_r dt em{display: inline-block;width: 26px;height: 18px;background: url(../images/cern_rli.png) no-repeat center top;vertical-align: middle;}
+#cern .cern_r dt a{color: #333;font-size: 20px;line-height: 30px;}
+#cern .cern_r dd{margin: 10px auto;color: #666;padding-left: 26px;line-height: 26px;}
+#cern .cern_r li:hover dt a{color: #0069b7;}
+#cern .cern_r li:hover a.on{background:#69b5e5 ;}
+/* 新闻详情 */
+#cern.cern2{background: #fff;}
+#cern .cern_lt2,#cern .cern_lb2{border: 1px solid #ccc;-webkit-box-sizing: border-box;}
+#cern .centent2{height: 820px;overflow: visible;margin: 0px auto 60px auto;}
+#cern .cern_r2{min-width: 890px;float:left;}
+#cern .title2 span{font-size: 26px;font-weight: 700;color: #656565;}
+#cern .title2 p{color: #666;font-size: 12px;margin: 10px auto;}
+#cern .title2 p a{color: #0009b7;}
+#cern .flect{margin-bottom: 30px;}
+#cern .flect_bt{width: 100%;height: 150px;border-top: 2px solid #dfdfdf;margin: 40px auto;}
+#cern .flect_bt a{display: inline-block; width: 200px;height: 50px;background: red;color: #fff;
+    padding-top: 10px;padding-left: 10px;margin: 40px 80px;}
+#cern .flect_bt a.flect_btl{background-image:url(../images/de_b1.png);background-repeat:no-repeat;
+    background-position:20px center;background-color:#eb6877;}
+#cern .flect_bt a.flect_btr{background-image:url(../images/de_b2.png);background-repeat:no-repeat;
+    background-position:20px center;background-color:#e6573b;}
+#cern .flect_bt a.flect_btl:hover{background-color:#fd5a66;}
+#cern .flect_bt a.flect_btr:hover{background-color:#fd5a66;}
+
+
+.list { margin:20px 0;}
+.pro-pic {
+    margin-top:-5px; padding:0; max-width:217px; height:200px; float:left;
+    background-color:#fff; padding:30px; border:1px solid #e4e4e4;}
+.pro-push { margin-top:-5px; height:5px; float:left;}
+.list-pro li { height:195px; background:url(../images/pro-bj.png) ; border:1px solid #e4e4e4;
+    margin-bottom:30px;}
+.list-pro dl { padding:0; margin:0;}
+.list-pro h4 { font-size:18px; font-weight:normal; padding-left:25px; color:#333; height:55px;
+    line-height:55px; margin:0; border-bottom:1px solid #e4e4e4; background-color:#fff;}
+.list-pro dd { height:138px; text-align:center; border-left:1px solid #e4e4e4; line-height:28px;}
+.list-pro .pl-no1 { padding-top:30px;}
+.list-pro .pl-no2 { padding-top:25px;}
+.list-pro .pl-no2 img{ margin-top:-6px;}
+.list-pro .pl-no3 { padding-top:25px;}
+.list-pro dd font { color:#ff520c;}
+.list-pro dd .f30 { font-size:30px; font-weight:bold; display:block; margin-top:12px;}
+.list-pro dd li{border:none; background:none; height:auto; margin:0;}
+
+
+
+.loan_de-content .detailed .pres { padding: 38px 0 12px 32px; overflow: hidden;
+    border-bottom: 1px solid #E6E6E6;  }
+.loan_de-content .detailed .pres div { float: left; }
+.loan_de-content .detailed .pres div.pres_first{min-width:387px;}
+.loan_de-content .detailed .pres p { height: 50px; }
+.loan_de-content .detailed .pres p span { display: block; font-size: 16px; padding-left: 35px;
+    background: url(../images/loan/4.png)no-repeat 0 0; height: 24px; }
+.loan_de-content .detailed .pres p.rate span { background-position: 0 -24px; }
+.loan_de-content .detailed .pres p.way span { background-position: 0 -48px; }
+.loan_de-content .detailed .pres p.limit span { background-position: 0 -72px; }
+.loan_de-content .detailed .pres p.time span { background-position: 0 -96px; }
+.loan_de-content .detailed .flow .biaoTi { font-size: 16px; color: #31A8DF; height: 47px;
+    line-height: 47px; border-bottom: 1px solid #E7EAEB; padding-left: 33px; }
+.loan_de-content .detailed .flow .step { width: 700px; height: 165px; border-top: 1px solid #E7EAEB;
+    position: relative; }
+.loan_de-content .detailed .flow .step .xian { width: 600px; height: 2px; background: #C6D6E2;
+    margin: 63px auto 0; }
+.loan_de-content .detailed .flow .step ul { width: 640px; padding: 0 30px; }
+.loan_de-content .detailed .flow .step ul li { margin-right: 119px; }
+.loan_de-content .detailed .flow .step ul li.last { margin-right: -34px; }
+.loan_de-content .detailed .flow .step ul li div { width: 60px; height: 45px; background: #fff;
+    padding-top: 15px; position: absolute; top: 30px; }
+.loan_de-content .detailed .flow .step ul li div span { color: #fff; font-weight: bold; width: 30px;
+    height: 30px; display: block; border-radius: 50%; background: #C6D6E2; margin: 0 auto; text-align: center; line-height: 30px; }
+.loan_de-content .detailed .flow .step ul li div span.current { background: #48BCF3; }
+.loan_de-content .detailed .flow .step ul li div b { background: url(../images/loan/15.png); width: 16px;
+    height: 13px; display: block; margin: -21px 0 0 23px; }
+.loan_de-content .detailed .flow .step ul li p { height: 80px; line-height: 80px; font-size: 12px;
+    color: #8F8F8F; }
+.loan_de-content .detailed .term { width: 100%; border: 1px solid #E6E8EA;
+    padding: 8px 0; border-left:0; background: #fff;}
+.loan_de-content .detailed .term.scrollTop{position: fixed;top: 77px;z-index: 9999;}
+.loan_de-content .detailed .term ul {margin: 0}
+.loan_de-content .detailed .term ul li {
+    padding: 0 20px; height: 35px; line-height: 35px;
+    font-size: 16px;color: #3A9DD5; text-align: center; border-right: 1px solid #E6E8EA; cursor:pointer; }
+.loan_de-content .detailed .term ul li.current { color: #fff; background: #3A9DD5;}
+.loan_de-content .detailed .terms {width: 100%;overflow: hidden;position: relative;}
+.loan_de-content .detailed .terms .content{position: absolute;top: 0;left: 0;margin: 5px 0 0 20px;}
+.loan_de-content .detailed .terms div { width: 670px; line-height: 40px; color: #868686; }
+.loan_de-content .detailed .terms div h2,.loan_de-content .detailed .terms div h3,
+.loan_de-content .detailed .terms div h4{color: #1A67AD;font-size: 16px;}
+.loan_de-content .detailed .terms div p{margin: 0 10px;font-size: 16px;}
+.loan_de-content .hot { float: right; }
+.loan_de-content .right-nav { width: 281px; height: 346px; background: #456682; }
+.loan_de-content .right-nav .big { width: 217px; margin: 0 auto; }
+.loan_de-content .right-nav .second .drop-down { width: 216px; border: 1px solid #799BD2; display: none;
+    background: #FFFFFF; z-index: 100; position: absolute; left: 0; top: 47px; }
+.loan_de-content .right-nav .third .drop-down { width: 216px; border: 1px solid #799BD2; display: none;
+    background: #FFFFFF; z-index: 100; position: absolute; left: 0; top: 47px; }
+.loan_de-content .right-nav .fourth .drop-down { width: 216px; border: 1px solid #799BD2; display: none;
+    background: #FFFFFF; z-index: 100; position: absolute; left: 0; top: 47px; }
+.loan_de-content .right-nav .drop-down ul li { width: 216px; height: 31px; line-height: 31px; margin-top: 0; }
+.loan_de-content .right-nav .drop-down ul li:hover { background: #077AB7; color: #fff; }
+.loan_de-content .right-nav ul li { height: 54px; margin-top: 8px; position: relative; line-height: 54px; }
+.loan_de-content .right-nav ul li.first { height: 70px; line-height: 70px; margin-top: 0 }
+.loan_de-content .right-nav ul li label { font-size: 22px; color: #FDFDFD; }
+.loan_de-content .right-nav ul li span { height: 18px; display: block; color: #F2F4F8; line-height: 10px; }
+.loan_de-content .right-nav ul li div span { width: 174px; height: 28px; border: 1px solid #AEAEAE;
+    padding-left: 5px; color: #818181; float: left; background: #fff; line-height: 28px; border-right: 0;}
+.loan_de-content .right-nav ul li .btn { height: 30px; }
+.loan_de-content .right-nav ul li .btn a { width: 37px; height: 30px; display: block;
+    background: url(../images/home/7.png); float: left; }
+.loan_de-content .right-nav ul li .submit { width: 217px; height: 30px; background: #F8BC2B;
+    line-height: 32px; text-align: center; }
+.loan_de-content .right-nav ul li .submit a { width: 100%; height: 100%; display: block; font-size: 16px;
+    color: #060606; margin-top: 15px; }
+.loan_de-content .right-nav ul li .submit a:hover{color: #fff; background: #1899EE;}
+.loan_de-content .hot .recommend .biaoti { width: 281px; height: 27px; line-height: 27px; font-size: 18px;
+    border-bottom: 1px solid #E6E6E6; margin-top: 70px; }
+.loan_de-content .hot .hot_loan { padding-top: 30px; }
+.loan_de-content .hot .hot_loan ul li { margin-top: 44px; }
+.loan_de-content .hot .hot_loan ul li.first { margin-top: 0; }
+.loan_de-content .hot .hot_loan ul li div { width: 100px; height: 60px; /*background: url(../images/loan/16.png);*/ float: left; margin-right: 10px; }
+.loan_de-content .hot .hot_loan ul li p { font-size: 12px; height: 20px; line-height: 24px; }
+.loan_de-content .hot .hot_loan ul li p.first { font-size: 16px; line-height: 16px; }
+.loan_de-content .hot .hot_loan ul li p.first a{ color:#000;}
+.loan_de-content .hot .hot_loan ul li p span { color: #F0894C; }
+
+.loan_de-content .detailed .terrace_grade{
+    width: 100%; height: 98px; border-bottom: 1px solid #EFEFEF; padding: 0 0 0 20px;
+}
+.loan_de-content .detailed .terrace_grade .grade_title{line-height: 40px; font-size: 16px; color: #888787;}
+.loan_de-content .detailed .terrace_grade .grade_content .total_points{float: left; margin-top: 5px;}
+.loan_de-content .detailed .terrace_grade .grade_content .total_points .num_points{font-size: 28px; color: #494949; float: left; margin-right: 10px;}
+.loan_de-content .detailed .terrace_grade .grade_content .total_points .num_points span{}
+.loan_de-content .detailed .terrace_grade .grade_content .total_points .grade_num{float: left; color: #356da7; line-height: 25px;}
+.loan_de-content .detailed .terrace_grade .grade_content .total_points .grade_num .grade{width: 105px; height: 16px;}
+.loan_de-content .detailed .terrace_grade .grade_content .total_points .grade_num .grade span{display: block; float: left; width: 18px; height: 16px; background: url(../images/loan/108.png)no-repeat;cursor:pointer; }
+.loan_de-content .detailed .terrace_grade .grade_content .total_points .grade_num .grade span.half{background: url(../images/loan/111.png)no-repeat;}
+.loan_de-content .detailed .terrace_grade .grade_content .total_points .grade_num .grade span.normal{background: url(../images/loan/110.png)no-repeat;}
+.loan_de-content .detailed .terrace_grade .grade_content .total_points .grade_num .grade#NoScore span:hover{background: url(../images/loan/109.png)no-repeat;}
+.loan_de-content .detailed .terrace_grade .grade_content .total_points .grade_num .grade span.addStar{background: url(../images/loan/109.png)no-repeat;}
+.loan_de-content .detailed .terrace_grade .grade_content .ratio{float: left;}
+.loan_de-content .detailed .terrace_grade .grade_content .ratio ul{width: 526px;}
+.loan_de-content .detailed .terrace_grade .grade_content .ratio ul li{color: #919191;}
+.loan_de-content .detailed .terrace_grade .grade_content .ratio ul li div{float: left; height: 13px; margin-top: 5px;}
+.loan_de-content .detailed .terrace_grade .grade_content .ratio ul li{float: left; width: 175px;}
+.loan_de-content .detailed .terrace_grade .grade_content .ratio ul li div span{display: block; height: 13px; background: #FED49A; margin: 0 3px;}
+.loan_de-content .detailed .terrace_grade .grade_content .ratio ul li span{float: left;}
+
+
+/*借款详情页面样式*/
+.loan_de-content { width: 1005px; margin: 0px auto 0; overflow: hidden; }
+.loan_de-content .detailed { overflow: hidden; width: 888px; border: 1px solid #E6E6E6;
+    margin-bottom: 60px; float: left; position: relative; }
+.loan_de-content .detailed .pro { overflow: hidden; background: #F5F5F5; width: 100%;
+    padding: 20px 10px 20px 40px; }
+.loan_de-content .detailed ul li { float: left; }
+.loan_de-content .detailed ul li.first { margin-right: 18px; }
+.loan_de-content .detailed ul li.first a { display: block; width: 132px; height: 72px; /*background: url(../images/loan/8.png);*/ }
+.loan_de-content .detailed ul li p { font-size: 18px; line-height: 40px; margin-bottom: 8px; }
+.loan_de-content .detailed ul li span { font-size: 16px; display: inline-block; text-align: left; }
+.loan_de-content .detailed ul li span.first { margin-right: 12px; border-right: 1px solid #E7E6E5; padding-right: 20px; }
+.loan_de-content .detailed ul li span.first a{color: #000;}
+
+.loan_de-content .detailed ul li.last { float: right; text-align: center; }
+.loan_de-content .detailed ul li.last p { font-size: 15px; margin-bottom: 0; line-height: 34px; }
+.loan_de-content .detailed ul li.last p span { color: red; font-size: 18px; }
+.loan_de-content .detailed ul li.last a { width: 95px; height: 35px; line-height: 35px; text-align: center; display: block; background: #2084E1; color: #fff; border-radius: 5px 5px 5px 5px; margin: 0 auto; }
+.loan_de-content .detailed ul li.last a:hover {   background: #0062BC;    }
+
+
+
+
